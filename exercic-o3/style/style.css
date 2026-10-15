@@ -1,0 +1,126 @@
+
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+color: white;
+font-weight: bold;
+}
+
+body {
+background-color: #222;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+/* Header Preta*/
+.header {
+background-color: black;
+text-align: center;
+padding: 15px;
+}
+
+/* Nav Azul*/
+.nav {
+background-color: blue;
+padding: 10px 20px;
+}
+
+/* Container rosinha*/
+.container {
+display: flex;
+flex: 1;
+}
+
+
+.nav-coluna {
+background-color: #c2c2a3;
+width: 20%;
+padding: 20px;
+}
+
+
+.secao-principal {
+background-color: #ffb3d9;
+flex: 1;
+padding: 15px;
+display: flex;
+flex-direction: column;
+gap: 15px;;
+}
+
+.secao-principal h1{
+    background-color: #beb6b6;
+    text-align: center;
+}
+
+
+.header-preta {
+background-color: rgb(12, 12, 12);
+padding: 10px;
+}
+
+.header-preta h1{
+    color: #fdfcfc;
+    text-align: center;
+}
+
+.header2 h3 {
+background-color: #666666;
+color: black;
+text-align: center;
+}
+
+/* Div Marrom */
+.div-marrom {
+background-color: #8B4513;
+height: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 24px;
+}
+
+/* Parágrafo*/
+.paragrafo {
+background-color: #d1d8ff;
+padding: 25px;
+}
+
+.paragrafo p {
+color: black;
+}
+
+/* Container das 3 divs cinzas */
+.container-div {
+display: flex;
+gap: 15px;
+}
+
+/* Divs Cinzas */
+.div-cinza {
+background-color: #666666;
+flex: 1;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* Aside */
+.aside {
+background-color: #ff00ff;
+width: 20%;
+padding: 20px;
+text-align: center;
+}
+
+/* Footer */
+.footer {
+background-color: black;
+text-align: center;
+padding: 15px;
+}
